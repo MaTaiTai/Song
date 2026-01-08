@@ -1,0 +1,133 @@
+
+.container {
+	padding: 20px;
+	background-color: #121212;
+	min-height: 100vh;
+}
+.header {
+	margin-bottom: 20px;
+}
+.title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+}
+.subtitle {
+	font-size: 12px;
+	color: #666;
+}
+.stats-container {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 30px;
+}
+.stat-card {
+	flex: 1;
+	padding: 20px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.stat-card.primary {
+	background: linear-gradient(135deg, #FFD700, #FFA500);
+}
+.stat-card.secondary {
+	background-color: #1E1E1E;
+	border: 1px solid #333;
+}
+.stat-label {
+	font-size: 12px;
+	margin-bottom: 5px;
+	color: rgba(255,255,255,0.7);
+}
+.secondary .stat-label {
+	color: #888;
+}
+.stat-value {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+}
+.menu-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 15px;
+	margin-bottom: 30px;
+}
+.menu-item {
+	background-color: #1E1E1E;
+	padding: 20px 10px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.icon-box {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.menu-icon {
+	font-weight: bold;
+	color: #121212;
+}
+.menu-text {
+	font-size: 12px;
+	color: #ccc;
+}
+.section-title {
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.order-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.order-item {
+	background-color: #1E1E1E;
+	padding: 15px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.order-info {
+	display: flex;
+	flex-direction: column;
+}
+.order-song {
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+.order-user {
+	color: #666;
+	font-size: 12px;
+}
+.order-status {
+	font-size: 12px;
+	padding: 4px 8px;
+	border-radius: 4px;
+}
+.order-status.pending {
+	background-color: rgba(255, 215, 0, 0.1);
+	color: #FFD700;
+}
+.order-status.playing {
+	background-color: rgba(78, 205, 196, 0.1);
+	color: #4ECDC4;
+}
+.order-status.completed {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #888;
+}
+

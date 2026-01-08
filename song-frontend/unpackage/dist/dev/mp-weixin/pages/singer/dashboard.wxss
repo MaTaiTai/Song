@@ -1,0 +1,161 @@
+
+.container {
+	padding: 20px;
+	background-color: #121212;
+	min-height: 100vh;
+}
+.profile-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+.avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+	border: 2px solid #FFD700;
+}
+.avatar-text {
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFD700;
+}
+.profile-info {
+	flex: 1;
+}
+.singer-name {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	margin-bottom: 5px;
+}
+.singer-status {
+	font-size: 12px;
+	color: #4ECDC4;
+}
+.settings-icon {
+	font-size: 20px;
+	color: #888;
+}
+.income-card {
+	background: linear-gradient(135deg, #FFD700, #FFA500);
+	border-radius: 15px;
+	padding: 20px;
+	margin-bottom: 25px;
+	box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);
+}
+.income-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.income-item {
+	display: flex;
+	flex-direction: column;
+}
+.income-label {
+	font-size: 12px;
+	color: rgba(0,0,0,0.6);
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.income-value {
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+}
+.income-value.small {
+	font-size: 18px;
+	margin-top: 6px;
+}
+.btn-withdraw {
+	background-color: rgba(0,0,0,0.1);
+	color: #000;
+	font-size: 14px;
+	border-radius: 20px;
+	border: 1px solid rgba(0,0,0,0.1);
+	font-weight: bold;
+}
+.action-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	margin-bottom: 30px;
+}
+.action-item {
+	background-color: #1E1E1E;
+	padding: 15px 5px;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.action-icon {
+	font-size: 20px;
+	margin-bottom: 8px;
+	color: #ccc;
+}
+.action-icon.add {
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFD700;
+}
+.action-text {
+	font-size: 10px;
+	color: #888;
+}
+.section-title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 15px;
+	border-left: 3px solid #FFD700;
+	padding-left: 10px;
+}
+.song-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+.song-item {
+	background-color: #1E1E1E;
+	padding: 15px;
+	border-radius: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.song-info {
+	flex: 1;
+}
+.song-name {
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 4px;
+	display: block;
+}
+.song-price {
+	font-size: 12px;
+	color: #FFD700;
+}
+.song-controls {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.edit-btn {
+	font-size: 12px;
+	color: #888;
+	padding: 4px 10px;
+	border: 1px solid #333;
+	border-radius: 15px;
+}
+

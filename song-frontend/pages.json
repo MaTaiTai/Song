@@ -1,0 +1,80 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "同仁四季·点歌",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#121212"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录/注册",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#121212"
+			}
+		},
+		{
+			"path": "pages/admin/admin",
+			"style": {
+				"navigationBarTitleText": "管理后台",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#121212"
+			}
+		},
+		{
+			"path": "pages/singer/register",
+			"style": {
+				"navigationBarTitleText": "歌手入驻",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#121212"
+			}
+		},
+		{
+			"path": "pages/singer/dashboard",
+			"style": {
+				"navigationBarTitleText": "歌手工作台",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#121212"
+			}
+		},
+		{
+			"path": "pages/admin/audit",
+			"style": {
+				"navigationBarTitleText": "歌手审核",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#121212"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "同仁四季",
+		"navigationBarBackgroundColor": "#1a1a1a",
+		"backgroundColor": "#121212"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FFD700",
+		"backgroundColor": "#1a1a1a",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "点歌"
+			},
+			{
+				"pagePath": "pages/login/login",
+				"text": "我的"
+			}
+		]
+	}
+}

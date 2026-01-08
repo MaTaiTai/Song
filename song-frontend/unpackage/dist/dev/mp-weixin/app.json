@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/admin/admin",
+    "pages/singer/register",
+    "pages/singer/dashboard",
+    "pages/admin/audit"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "同仁四季",
+    "navigationBarBackgroundColor": "#1a1a1a",
+    "backgroundColor": "#121212"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FFD700",
+    "backgroundColor": "#1a1a1a",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "点歌"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
